@@ -1,0 +1,41 @@
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    background-color: #f5cd79;
+}
+
+h1 {
+    font-size: 100px;
+    margin-bottom: 0;
+}
+
+main {
+    margin-top: 8em;
+}
+
+#value {
+    font-size: 150px;
+}
+
+.btn {
+    font-size: 30px;
+    background-color: #f19066;
+    margin: 40px 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 50px;
+    padding: 0 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #f5cd79;
+    border: 1px solid;
+    padding: 0 15px;
+}
