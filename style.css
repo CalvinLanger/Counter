@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 
 body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     text-align: center;
-    font-weight: bold;
-    background-color: #f5cd79;
+    background-color: #ffa600;
+    font-family: 'Fredoka One', cursive;
 }
 
 h1 {
@@ -23,7 +25,7 @@ main {
 
 .btn {
     font-size: 30px;
-    background-color: #f19066;
+    background-color: #ffa600;
     margin: 40px 10px;
     border: none;
     font-weight: bold;
@@ -31,10 +33,9 @@ main {
     height: 50px;
     padding: 0 15px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .btn:hover {
-    background-color: #f5cd79;
-    border: 4px solid;
+    background-color: #fff;
 }
