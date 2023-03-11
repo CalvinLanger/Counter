@@ -41,7 +41,7 @@ main {
     height: 50px;
     padding: 0 15px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: all 0.5s;
     margin: 1rem auto;
 }
 
@@ -50,13 +50,20 @@ main {
 }
 
 @media screen and (max-width: 600px) {
-  
+    
     .button-container {
         flex-direction: column;
+        margin-top: 6rem;
     }
 
     .container {
         height: 90vh;
+    }
+
+    .btn {
+        margin-bottom: 2rem;
+        font-size: 80px;
+        height: auto;
     }
 
 }
