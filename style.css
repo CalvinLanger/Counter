@@ -5,7 +5,6 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    text-align: center;
     background-color: #ffa600;
     font-family: 'Fredoka One', cursive;
 }
@@ -23,10 +22,19 @@ main {
     font-size: 150px;
 }
 
+.container {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+}
+
 .btn {
     font-size: 30px;
     background-color: #ffa600;
-    margin: 40px 10px;
     border: none;
     font-weight: bold;
     border-radius: 10px;
@@ -34,8 +42,21 @@ main {
     padding: 0 15px;
     cursor: pointer;
     transition: 0.5s;
+    margin: 1rem auto;
 }
 
 .btn:hover {
     background-color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  
+    .button-container {
+        flex-direction: column;
+    }
+
+    .container {
+        height: 90vh;
+    }
+
 }
