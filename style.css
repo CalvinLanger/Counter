@@ -10,22 +10,27 @@ body {
 }
 
 h1 {
+    display: grid;
+    justify-content: center;
     font-size: 100px;
     margin-bottom: 0;
 }
 
-main {
-    margin-top: 8em;
-}
-
 #value {
+    display: grid;
+    justify-content: center;
     font-size: 150px;
 }
 
 .container {
-    width: 600px;
-    margin: 0 auto;
-    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+#number {
+    display: grid;
+    justify-content: center;
+    align-self: center;
 }
 
 .button-container {
@@ -50,20 +55,23 @@ main {
 }
 
 @media screen and (max-width: 600px) {
+
+    main {
+        display: grid;
+        justify-content: center;
+    }
     
     .button-container {
         flex-direction: column;
-        margin-top: 6rem;
     }
 
     .container {
-        height: 90vh;
+        width: 100%;
+        height: 100vh;
     }
 
-    .btn {
-        margin-bottom: 2rem;
-        font-size: 80px;
-        height: auto;
+    h1 {
+        font-size: 60px;
     }
 
 }
